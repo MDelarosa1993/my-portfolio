@@ -7,22 +7,27 @@ const Skills = () => {
         { name: "HTML5", level: "Advanced" },
         { name: "CSS3/SCSS", level: "Advanced" },
         { name: "JavaScript", level: "Advanced" },
+        { name: "Jest", level: "Intermediate"},
+        { name: "Cypress", level: "Intermediate"}
       ]
     },
     {
       title: "Backend & Database",
       skills: [
-        { name: "Firebase", level: "Intermediate" },
-        { name: "Cloud Firestore", level: "Intermediate" },
-        { name: "RESTful APIs", level: "Intermediate" },
+        { name: "Ruby on Rails", level: "Adanced" },
+        { name: "Postgresql", level: "Intermediate" },
+        { name: "RESTful APIs", level: "Advanced" },
       ]
     },
     {
       title: "Tools & Platforms",
       skills: [
-        { name: "Git", level: "Intermediate" },
-        { name: "GitHub", level: "Intermediate" },
+        { name: "Git", level: "Advanced" },
+        { name: "GitHub", level: "Advanced" },
         { name: "VS Code", level: "Advanced" },
+        { name: "Object-Oriented-Programming(OOP)", level: "Advanced"},
+        { name: "Test-Driven-Development(TDD)", level: "Advanced"},
+        { name: "JSON", level: "Advanced"}
       ]
     }
   ]
