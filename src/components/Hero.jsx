@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import Headshot from '/Users/delarosa/Desktop/PD Development/my-portfolio/src/assets/549FCE99-E3CB-4425-B3A0-8C8D1DC31046.jpeg'
+import Headshot from '../assets/src/assets/549FCE99-E3CB-4425-B3A0-8C8D1DC31046.jpeg'
 const Hero = () => {
   return (
     <section className="pt-20 min-h-screen flex items-center bg-gray-50">
