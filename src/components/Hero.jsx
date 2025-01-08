@@ -1,5 +1,6 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import Headshot from '../assets/headshot.jpeg'
+import { FaGithub, FaLinkedin, FaFileAlt } from 'react-icons/fa';
+import Headshot from '../assets/Me.jpeg';
+
 const Hero = () => {
   return (
     <section className="pt-20 min-h-screen flex items-center bg-gray-50">
@@ -13,20 +14,44 @@ const Hero = () => {
               Building digital solutions with modern web technologies
             </p>
             <div className="flex gap-4">
-              <a href="https://github.com/MDelarosa1993" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-primary transition-colors">
+              <a
+                href="https://github.com/MDelarosa1993"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-primary transition-colors"
+              >
                 <FaGithub size={30} />
               </a>
-              <a href="https://www.linkedin.com/in/melchordelarosa/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-primary transition-colors">
+              <a
+                href="https://www.linkedin.com/in/melchordelarosa/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-primary transition-colors"
+              >
                 <FaLinkedin size={30} />
+              </a>
+              <a
+                href="https://docs.google.com/document/d/1YEhi8Hn9bHW9ZNegwc9gn0ttbVG8-VLJqZock8YP1bM/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-primary transition-colors flex items-center"
+                aria-label="View My Resume"
+              >
+                <FaFileAlt size={30} />
               </a>
             </div>
           </div>
           <div className="w-1/2 flex justify-center">
-            <img src={ Headshot } alt="Professional headshot" className="w-80 h-80 rounded-full object-cover shadow-2xl" />
+            <img
+              src={Headshot}
+              alt="Professional headshot"
+              className="w-80 h-80 rounded-full object-cover shadow-2xl"
+            />
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
+
 export default Hero;

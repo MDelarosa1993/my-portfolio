@@ -21,7 +21,7 @@ const About = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Preferred Locations</h3>
               <div className="bg-gray-50 rounded-lg p-4">
                 <p className="text-gray-700">Remote Would Be my First Preference.</p>
-                <p className="text-gray-700">My Second Preference Would be anywhere local or a radius of 100 miles.</p>
+                <p className="text-gray-700">My Second Preference Would be anywhere In Palm Coast, Fl or a radius of 100 miles.</p>
               </div>
             </div>
           </div>

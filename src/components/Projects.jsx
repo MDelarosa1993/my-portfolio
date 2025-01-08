@@ -56,14 +56,8 @@ const Projects = () => {
                 <div className="flex gap-4">
                   <a href={project.githubLink} target="_blank" rel="noopener noreferrer" 
                      className="px-4 py-2 bg-primary text-white rounded hover:bg-blue-600 transition-colors">
-                    View Code
+                    View Repository
                   </a>
-                  {project.liveLink && (
-                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer"
-                       className="px-4 py-2 border border-primary text-primary rounded hover:bg-gray-50 transition-colors">
-                      Live Demo
-                    </a>
-                  )}
                 </div>
               </div>
             </div>

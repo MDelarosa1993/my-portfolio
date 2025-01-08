@@ -17,6 +17,9 @@ const Skills = () => {
         { name: "Ruby on Rails", level: "Adanced" },
         { name: "Postgresql", level: "Intermediate" },
         { name: "RESTful APIs", level: "Advanced" },
+        { name: "Redis", level: "Intermediate" },
+        { name: "Sidkiq", level: "Intermediate" },
+        { name: "Active jobs", level: "Intermediate" }
       ]
     },
     {
