@@ -7,7 +7,7 @@ const About = () => {
           <div className="space-y-6 text-lg text-gray-600">
             <p>Hello, my name is Melchor De La Rosa, and I am a software engineer based in Palm Coast, FL. My current focus lies in building robust and scalable applications using modern technologies like React, Ruby on Rails, and JavaScript.</p>
             <p>My journey into software development is rooted in my background as a master assembler and group leader in boatbuilding, where I built Boston Whaler boats ranging from 11 to 42 feet. In that role, I honed skills in precision, problem-solving, and collaboration, which naturally transitioned into coding. I discovered a passion for solving complex challenges and creating digital solutions that make a real-world impact, which drives my work today.</p>
-            <p>I'm looking for opportunities where I can contribute to dynamic teams that value growth, creativity, and innovation. My goal is to build applications that enhance user experiences and address real-world needs, while continuing to expand my technical expertise.</p>
+            <p>I'm looking for opportunities where I can contribute to dynamic teams that value growth, creativity, and innovation. My goal is to build applications that enhance user experiences and address real-world needs, while continuing to expand my technical expertise. Feel free to reach out to me at <a href="mailto:delarosa12132019@gmail.com" className="text-blue-500 underline">delarosa12132019@gmail.com</a>.</p>
 
             <div className="mt-12">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Previous Industries</h3>
