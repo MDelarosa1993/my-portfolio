@@ -1,5 +1,5 @@
 import crwnImage from '../assets/image.png'
-
+import viewingParty from '../assets/viewingParty.webp'
 const Projects = () => {
   const projects = [
     {
@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: "Viewing Party API",
       description: "Built a social platform for organizing movie viewing parties with friends, enabling users to invite others, schedule sessions, and access real-time movie details.",
-      image: "",
+      image: viewingParty,
       tools: ["Ruby on Rails", "Bcrypt", "RSpec", "Movie Database API"],
       githubLink: "https://github.com/MDelarosa1993/viewing-party-api-Mod3",
       keyFeatures: [
