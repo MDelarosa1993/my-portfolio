@@ -1,5 +1,5 @@
 import crwnImage from '../assets/image.png'
-import viewingParty from '../assets/viewingParty.webp'
+import viewingParty from '../assets/ViewingParty.webp'
 const Projects = () => {
   const projects = [
     {
